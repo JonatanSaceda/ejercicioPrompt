@@ -1,0 +1,118 @@
+/* Estilo general del cuerpo */
+body {
+    background-color: black; /* Fondo negro para dar un efecto visual atractivo */
+    display: flex; /* Usa flexbox para centrar los elementos */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    height: 100vh; /* Ocupa toda la altura de la pantalla */
+    flex-direction: column; /* Coloca los elementos en una columna */
+}
+
+/* Contenedor principal del juego */
+#game-container {
+    text-align: center; /* Centra el contenido */
+    position: relative; /* Posición relativa para otros elementos dentro */
+}
+
+/* Botón para lanzar el dado */
+#roll-button {
+    padding: 10px 20px; /* Espaciado interno para mayor tamaño */
+    font-size: 18px; /* Tamaño de letra */
+    cursor: pointer; /* Cambia el cursor a una mano al pasar por encima */
+    background-color: white; /* Fondo blanco */
+    border: none; /* Sin bordes */
+    border-radius: 5px; /* Bordes redondeados */
+    margin-bottom: 20px; /* Separación del contenedor del dado */
+}
+
+/* Contenedor del dado */
+#dice-container {
+    width: 200px; /* Ancho */
+    height: 200px; /* Alto */
+    background: url('https://www.toptal.com/designers/subtlepatterns/uploads/tileable_wood_texture.png'); /* Textura de madera de fondo */
+    background-size: cover; /* Ajustar la imagen al tamaño del contenedor */
+    position: relative; /* Permite la colocación absoluta de elementos internos */
+    display: flex; /* Usa flexbox para centrar el dado */
+    justify-content: center; /* Centra el dado horizontalmente */
+    align-items: center; /* Centra el dado verticalmente */
+    perspective: 600px; /* Da una perspectiva 3D */
+}
+
+/* Dado en sí */
+#dice {
+    width: 80px; /* Tamaño del dado */
+    height: 80px;
+    position: absolute; /* Permite transformaciones 3D */
+    transform-style: preserve-3d; /* Mantiene la transformación en 3D */
+    transform: rotateX(0deg) rotateY(0deg); /* Estado inicial sin rotación */
+    transition: transform 1.5s ease-out; /* Suaviza la animación del giro */
+}
+
+/* Cada cara del dado */
+.face {
+    position: absolute; /* Se posiciona en relación con el dado */
+    width: 80px; /* Tamaño de cada cara */
+    height: 80px;
+    background: white; /* Fondo blanco */
+    border: 2px solid black; /* Borde negro */
+    display: flex; /* Usa flexbox para centrar puntos */
+    justify-content: center; /* Centra horizontalmente los puntos */
+    align-items: center; /* Centra verticalmente los puntos */
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2); /* Sombra para efecto visual */
+    display: grid; /* Usa grid para colocar los puntos */
+    grid-template-columns: repeat(3, 1fr); /* Tres columnas */
+    grid-template-rows: repeat(3, 1fr); /* Tres filas */
+}
+
+/* Posicionamiento de cada cara del dado en 3D */
+.front  { transform: translateZ(40px); }   /* Cara del 1 al frente */
+.back   { transform: rotateY(180deg) translateZ(40px); } /* Cara del 6 detrás */
+.left   { transform: rotateY(-90deg) translateZ(40px); } /* Cara del 4 a la izquierda */
+.right  { transform: rotateY(90deg) translateZ(40px); }  /* Cara del 3 a la derecha */
+.top    { transform: rotateX(90deg) translateZ(40px); }  /* Cara del 2 arriba */
+.bottom { transform: rotateX(-90deg) translateZ(40px); } /* Cara del 5 abajo */
+
+/* Estilo de los puntos del dado */
+.dot {
+    width: 14px; /* Tamaño del punto */
+    height: 14px;
+    background: black; /* Color negro */
+    border-radius: 50%; /* Hace que los puntos sean redondos */
+    align-self: center; /* Centra el punto en la fila */
+    justify-self: center; /* Centra el punto en la columna */
+}
+
+/* Distribución de los puntos en cada cara del dado */
+
+/* 1 (Un punto en el centro) */
+.front .dot { grid-area: 2 / 2; }
+
+/* 2 (Dos puntos en esquinas opuestas) */
+.top .dot:nth-child(1) { grid-area: 1 / 1; }
+.top .dot:nth-child(2) { grid-area: 3 / 3; }
+
+/* 3 (Tres puntos en diagonal) */
+.right .dot:nth-child(1) { grid-area: 1 / 1; }
+.right .dot:nth-child(2) { grid-area: 2 / 2; }
+.right .dot:nth-child(3) { grid-area: 3 / 3; }
+
+/* 4 (Cuatro puntos en las esquinas) */
+.left .dot:nth-child(1) { grid-area: 1 / 1; }
+.left .dot:nth-child(2) { grid-area: 1 / 3; }
+.left .dot:nth-child(3) { grid-area: 3 / 1; }
+.left .dot:nth-child(4) { grid-area: 3 / 3; }
+
+/* 5 (Cuatro puntos en las esquinas y uno en el centro) */
+.bottom .dot:nth-child(1) { grid-area: 1 / 1; }
+.bottom .dot:nth-child(2) { grid-area: 1 / 3; }
+.bottom .dot:nth-child(3) { grid-area: 2 / 2; }
+.bottom .dot:nth-child(4) { grid-area: 3 / 1; }
+.bottom .dot:nth-child(5) { grid-area: 3 / 3; }
+
+/* 6 (Seis puntos en dos columnas) */
+.back .dot:nth-child(1) { grid-area: 1 / 1; }
+.back .dot:nth-child(2) { grid-area: 1 / 3; }
+.back .dot:nth-child(3) { grid-area: 2 / 1; }
+.back .dot:nth-child(4) { grid-area: 2 / 3; }
+.back .dot:nth-child(5) { grid-area: 3 / 1; }
+.back .dot:nth-child(6) { grid-area: 3 / 3; }

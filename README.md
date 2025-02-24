@@ -55,12 +55,23 @@ Una vez obtenido un **prompt optimizado** con ChatGPT-4o, se probó en diferente
 
 ---
 
-## 🎮 Cómo Probarlo
-1. Copia el código en un editor como **CodePen**.
-2. Haz clic en el botón **"Tirar"**.
-3. Observa cómo el dado se mueve y gira antes de mostrar el número final.
+## 🎮 **Cómo Probar el Juego**
+Puedes probar el juego de dos maneras:
+
+### ✅ **Opción 1: Ejecutar el código localmente**
+1. Descarga los archivos del repositorio.
+2. Abre `index.html` en un navegador.
+
+### 🌐 **Opción 2: Ejecutarlo en CodePen**  
+Prueba la versión online directamente desde mi perfil de CodePen:
+
+🔹 **Versión ChatGPT-4o** → [Abrir en CodePen](https://codepen.io/Jonatan-S/pen/MYWjaBv)  
+🔹 **Versión Gemini 2.0 Flash** → [Abrir en CodePen](https://codepen.io/Jonatan-S/pen/KwKgdxm)  
+ 
+[🌍 Mi perfil en CodePen](https://codepen.io/Jonatan-S)  
 
 ---
+
 
 ## 📜 Conclusión
 Este proyecto demuestra el **potencial de las IAs para generar software sin escribir código**, pero también **sus límites**.  

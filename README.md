@@ -5,7 +5,7 @@ Este proyecto demuestra cómo se puede desarrollar un **juego interactivo de tir
 ## 🚀 Descripción
 - Creado bajo el paradigma **No-Code**, sin escribir una sola línea de código manualmente.
 - **Desarrollado con ChatGPT-4o** en una **cadena de 7 prompts** para lograr el resultado final.
-- Se han realizado mejoras con **Gemini, DeepSeek, Perplexity, Codeium y GitHub Copilot**, pero se descartaron las últimas 3 por no lograr el objetivo.
+- Se han realizado mejoras con **Gemini, DeepSeek, Perplexity, Codeium y GitHub Copilot**. Sin embargo, las últimas 3 fueron descartadas por no lograr un resultado funcional.
 
 ---
 
@@ -15,7 +15,7 @@ Después, el mismo proceso se intentó con otras IAs:
 
 ### 🔹 **Resultados con múltiples prompts**:
 ✅ **ChatGPT-4o** → *Resultado final óptimo.*  
-✅ **Gemini 2.0 Flash, DeepSeek-V3** → *Resultado bastante bueno, pero con detalles a corregir.* 
+✅ **Gemini 2.0 Flash, DeepSeek-V3** → *Resultado bastante bueno, pero con detalles a corregir.*  
 ❌ **Perplexity AI (Claude), Codeium y GitHub Copilot** → *No consiguieron un resultado funcional.*  
 
 ---
@@ -24,18 +24,18 @@ Después, el mismo proceso se intentó con otras IAs:
 Una vez obtenido un **prompt optimizado** con ChatGPT-4o, se probó en diferentes IAs para ver si podían generar el juego **de una sola vez, sin ajustes adicionales**.
 
 ### 🔹 **Resultados con un solo prompt**:
-✅ **Gemini 2.0 Flash** → *Consiguió un resultado aceptable, aunque inferior al obtenido con múltiples prompts en ChatGPT 4o.*  
-❌ **ChatGPT-4o, DeepSeek, Perplexity, Codeium, GitHub Copilot** → *No consiguieron un resultado funcional.*  
+✅ **Gemini 2.0 Flash** → *Consiguió un resultado aceptable, aunque inferior al obtenido con múltiples prompts en ChatGPT-4o.*  
+❌ **ChatGPT-4o, DeepSeek, Perplexity, Codeium, GitHub Copilot** → *No lograron un resultado funcional.*  
 
 📌 **Conclusión:** Aunque **ChatGPT-4o fue el más efectivo con múltiples prompts**, **Gemini 2.0 Flash** fue la única IA capaz de acercarse a un buen resultado con **un solo prompt**.
 
 ---
 
 ## 🎮 Características del Juego
-- **Dado en 3D realista**.
-- **Animación fluida** al girar antes de mostrar el resultado.
+- **Dado en 3D realista con animación fluida**.
+- **Puntos tradicionales en lugar de números**.
 - **Fondo negro y tablero de madera** para un diseño atractivo.
-- **100% generado por IA**, sin intervención manual.
+- **Generado 100% por IA**, sin intervención manual.
 
 ## 🛠️ Tecnologías Utilizadas
 - **ChatGPT-4o** *(generación del código en múltiples iteraciones)*
@@ -43,19 +43,28 @@ Una vez obtenido un **prompt optimizado** con ChatGPT-4o, se probó en diferente
 - **HTML + CSS + JavaScript** *(código final)*
 - **CodePen** *(pruebas en vivo)*
 
+---
+
 ## 🎮 Cómo Jugar
 1. Copia el código en un editor como **CodePen**.
 2. Haz clic en el botón **"Tirar"**.
 3. Observa cómo el dado se mueve y gira antes de mostrar el número final.
 
+---
+
 ## 📷 Captura de Pantalla
 _Añade aquí una imagen del juego si lo deseas._
 
+---
+
 ## 📜 Conclusión
 Este proyecto demuestra el **potencial de las IAs para generar software sin escribir código**, pero también **sus límites**.  
+
 ✅ **ChatGPT-4o fue la mejor IA con múltiples prompts.**  
-✅ **Gemini 2.0 Flash fue la única que logró un buen resultado con un solo prompt.**  
+✅ **Gemini 2.0 Flash fue la única que logró un resultado aceptable con un solo prompt.**  
 ❌ **Otras IAs no alcanzaron un resultado funcional.**  
+
+---
 
 ## 📜 Licencia
 Este proyecto es de código abierto y puedes modificarlo libremente.

@@ -2,7 +2,7 @@
 
 Este proyecto demuestra cómo se puede desarrollar un **juego interactivo de tirar un dado en 3D** sin escribir código manualmente, utilizando únicamente **técnicas de prompting** con **IA generativa**.  
 
-🕒 **Creado en menos de 30 minutos.**  
+🕒 **Creado en menos de 60 minutos.**  
 
 
 

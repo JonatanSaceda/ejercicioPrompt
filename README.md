@@ -1,18 +1,47 @@
-# 🎲 Juego de Tirar un Dado en 3D
+# 🎲 Juego de Tirar un Dado en 3D - 100% No-Code
 
-Este es un **juego interactivo de tirar un dado en 3D** desarrollado en **HTML, CSS y JavaScript**. Se ha diseñado para ser probado fácilmente en **CodePen**, mostrando un dado con animaciones realistas y un tablero de madera como fondo.
+Este proyecto demuestra cómo se puede desarrollar un **juego interactivo de tirar un dado en 3D** sin escribir código manualmente, utilizando únicamente **técnicas de prompting** con **IA generativa**.
 
-## 🚀 Características
-- **Dado en 3D** con caras correctamente representadas.
-- **Movimiento y animación realista** antes de mostrar el resultado final.
-- **Puntos tradicionales en lugar de números** en cada cara del dado.
-- **Fondo negro y tablero de madera** para mejorar la estética.
-- **Código optimizado para CodePen**, fácil de copiar y pegar.
+## 🚀 Descripción
+- Creado bajo el paradigma **No-Code**, sin escribir una sola línea de código manualmente.
+- **Desarrollado con ChatGPT-4o** en una **cadena de 7 prompts** para lograr el resultado final.
+- Se han realizado mejoras con **Gemini, DeepSeek, Perplexity, Codeium y GitHub Copilot**, pero se descartaron las últimas 3 por no lograr el objetivo.
+
+---
+
+## 🔬 **Experimento 1: Creación con Múltiples Prompts**
+Se utilizó **ChatGPT-4o** en una **cadena de 7 prompts** para perfeccionar el juego.  
+Después, el mismo proceso se intentó con otras IAs:
+
+### 🔹 **Resultados con múltiples prompts**:
+✅ **ChatGPT-4o** → *Resultado final óptimo.*  
+✅ **Gemini 2.0 Flash, DeepSeek-V3** → *Resultado bastante bueno, pero con detalles a corregir.* 
+❌ **Perplexity AI (Claude), Codeium y GitHub Copilot** → *No consiguieron un resultado funcional.*  
+
+---
+
+## 🔥 **Experimento 2: Creación con un Solo Prompt Final**
+Una vez obtenido un **prompt optimizado** con ChatGPT-4o, se probó en diferentes IAs para ver si podían generar el juego **de una sola vez, sin ajustes adicionales**.
+
+### 🔹 **Resultados con un solo prompt**:
+✅ **Gemini 2.0 Flash** → *Consiguió un resultado aceptable, aunque inferior al obtenido con múltiples prompts en ChatGPT 4o.*  
+❌ **ChatGPT-4o, DeepSeek, Perplexity, Codeium, GitHub Copilot** → *No consiguieron un resultado funcional.*  
+
+📌 **Conclusión:** Aunque **ChatGPT-4o fue el más efectivo con múltiples prompts**, **Gemini 2.0 Flash** fue la única IA capaz de acercarse a un buen resultado con **un solo prompt**.
+
+---
+
+## 🎮 Características del Juego
+- **Dado en 3D realista**.
+- **Animación fluida** al girar antes de mostrar el resultado.
+- **Fondo negro y tablero de madera** para un diseño atractivo.
+- **100% generado por IA**, sin intervención manual.
 
 ## 🛠️ Tecnologías Utilizadas
-- **HTML**: Estructura del juego.
-- **CSS**: Diseño del dado en 3D y animaciones.
-- **JavaScript**: Lógica para lanzar el dado y animarlo.
+- **ChatGPT-4o** *(generación del código en múltiples iteraciones)*
+- **Gemini, DeepSeek, Perplexity, Codeium, GitHub Copilot** *(evaluación y pruebas)*
+- **HTML + CSS + JavaScript** *(código final)*
+- **CodePen** *(pruebas en vivo)*
 
 ## 🎮 Cómo Jugar
 1. Copia el código en un editor como **CodePen**.
@@ -22,8 +51,13 @@ Este es un **juego interactivo de tirar un dado en 3D** desarrollado en **HTML, 
 ## 📷 Captura de Pantalla
 _Añade aquí una imagen del juego si lo deseas._
 
+## 📜 Conclusión
+Este proyecto demuestra el **potencial de las IAs para generar software sin escribir código**, pero también **sus límites**.  
+✅ **ChatGPT-4o fue la mejor IA con múltiples prompts.**  
+✅ **Gemini 2.0 Flash fue la única que logró un buen resultado con un solo prompt.**  
+❌ **Otras IAs no alcanzaron un resultado funcional.**  
+
 ## 📜 Licencia
 Este proyecto es de código abierto y puedes modificarlo libremente.
 
----
-✨ **Desarrollado como parte del curso "Azure AI Engineer".**  
+✨ **Desarrollado como parte del curso "Azure AI Engineer".**

@@ -1,7 +1,10 @@
-# 🎲 Juego de Tirar un Dado en 3D - 100% No-Code
+# 🎲 Juego de Tirar un Dado en 3D (100% No-Code)
 
-Este proyecto demuestra cómo se puede desarrollar un **juego interactivo de tirar un dado en 3D** sin escribir código manualmente, utilizando únicamente **técnicas de prompting** con **IA generativa**.
-🕒 **Creado en menos de 60 minutos.**
+Este proyecto demuestra cómo se puede desarrollar un **juego interactivo de tirar un dado en 3D** sin escribir código manualmente, utilizando únicamente **técnicas de prompting** con **IA generativa**.  
+
+🕒 **Creado en menos de 30 minutos.**  
+
+
 
 ## 🚀 Descripción
 - Creado bajo el paradigma **No-Code**, sin escribir una sola línea de código manualmente.

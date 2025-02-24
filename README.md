@@ -31,7 +31,7 @@ Después, el mismo proceso se intentó con otras IAs:
 Una vez obtenido un **prompt optimizado** con ChatGPT-4o, se probó en diferentes IAs para ver si podían generar el juego **de una sola vez, sin ajustes adicionales**.
 
 ### 🔹 **Resultados con un solo prompt**:
-✅ **Gemini 2.0 Flash** → *Consiguió un resultado aceptable, aunque inferior al obtenido con múltiples prompts en ChatGPT-4o.*  
+✅ **Gemini 2.0 Flash** → *Consiguió un resultado aceptable (con algunos errores), aunque inferior al obtenido con múltiples prompts en ChatGPT-4o.*  
 ❌ **ChatGPT-4o, DeepSeek, Perplexity, Codeium, GitHub Copilot** → *No lograron un resultado funcional.*  
 
 ## 🎥 Vista Previa (Gemini 2.0 Flash)

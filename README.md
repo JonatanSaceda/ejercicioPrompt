@@ -18,6 +18,9 @@ Después, el mismo proceso se intentó con otras IAs:
 ✅ **Gemini 2.0 Flash, DeepSeek-V3** → *Resultado bastante bueno, pero con detalles a corregir.*  
 ❌ **Perplexity AI (Claude), Codeium y GitHub Copilot** → *No consiguieron un resultado funcional.*  
 
+## 🎥 Vista Previa (ChatGPT-4o)
+![Demo del juego](Dice_ChatGPT-4o.gif)
+
 ---
 
 ## 🔥 **Experimento 2: Creación con un Solo Prompt Final**
@@ -26,6 +29,9 @@ Una vez obtenido un **prompt optimizado** con ChatGPT-4o, se probó en diferente
 ### 🔹 **Resultados con un solo prompt**:
 ✅ **Gemini 2.0 Flash** → *Consiguió un resultado aceptable, aunque inferior al obtenido con múltiples prompts en ChatGPT-4o.*  
 ❌ **ChatGPT-4o, DeepSeek, Perplexity, Codeium, GitHub Copilot** → *No lograron un resultado funcional.*  
+
+## 🎥 Vista Previa (Gemini 2.0 Flash)
+![Demo del juego](Dice_Gemini2.0Flash.gif)
 
 📌 **Conclusión:** Aunque **ChatGPT-4o fue el más efectivo con múltiples prompts**, **Gemini 2.0 Flash** fue la única IA capaz de acercarse a un buen resultado con **un solo prompt**.
 
@@ -45,15 +51,10 @@ Una vez obtenido un **prompt optimizado** con ChatGPT-4o, se probó en diferente
 
 ---
 
-## 🎮 Cómo Jugar
+## 🎮 Cómo Probarlo
 1. Copia el código en un editor como **CodePen**.
 2. Haz clic en el botón **"Tirar"**.
 3. Observa cómo el dado se mueve y gira antes de mostrar el número final.
-
----
-
-## 📷 Captura de Pantalla
-_Añade aquí una imagen del juego si lo deseas._
 
 ---
 

@@ -1,6 +1,7 @@
 # 🎲 Juego de Tirar un Dado en 3D - 100% No-Code
 
 Este proyecto demuestra cómo se puede desarrollar un **juego interactivo de tirar un dado en 3D** sin escribir código manualmente, utilizando únicamente **técnicas de prompting** con **IA generativa**.
+🕒 **Creado en menos de 60 minutos.**
 
 ## 🚀 Descripción
 - Creado bajo el paradigma **No-Code**, sin escribir una sola línea de código manualmente.
@@ -64,6 +65,8 @@ Este proyecto demuestra el **potencial de las IAs para generar software sin escr
 ✅ **ChatGPT-4o fue la mejor IA con múltiples prompts.**  
 ✅ **Gemini 2.0 Flash fue la única que logró un resultado aceptable con un solo prompt.**  
 ❌ **Otras IAs no alcanzaron un resultado funcional.**  
+
+⏳ **Todo el proceso se completó en menos de 60 minutos, incluyendo iteraciones y pruebas.**  
 
 ---
 

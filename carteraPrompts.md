@@ -36,7 +36,7 @@ PROMPT 7:
 ahora todas las caras del dado están en blanco, no muestran punto alguno
 
 RESPUESTA:
-[https://codepen.io/Jonaudi-S3/pen/yyLJmNK]
+[https://codepen.io/Jonatan-S/pen/MYWjaBv]
 
 ----------------------------------------------------------------
 PROMPT 8:
@@ -84,7 +84,7 @@ MODELO:
 2.0 Flash
 
 RESPUESTA:
-[https://codepen.io/Jona-Sac/pen/wBvzwJY]
+[https://codepen.io/Jonatan-S/pen/KwKgdxm]
 
 
 ----------------------------------------------------------------

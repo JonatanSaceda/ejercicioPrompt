@@ -23,7 +23,7 @@ Después, el mismo proceso se intentó con otras IAs:
 ❌ **Perplexity AI (Claude), Codeium y GitHub Copilot** → *No consiguieron un resultado funcional.*  
 
 ## 🎥 Vista Previa (ChatGPT-4o)
-![Demo del juego](Dice_ChatGPT-4o.gif)
+![Demo del juego](assets/Dice_ChatGPT-4o.gif)
 
 ---
 
@@ -35,7 +35,7 @@ Una vez obtenido un **prompt optimizado** con ChatGPT-4o, se probó en diferente
 ❌ **ChatGPT-4o, DeepSeek, Perplexity, Codeium, GitHub Copilot** → *No lograron un resultado funcional.*  
 
 ## 🎥 Vista Previa (Gemini 2.0 Flash)
-![Demo del juego](Dice_Gemini2.0Flash.gif)
+![Demo del juego](assets/Dice_Gemini2.0Flash.gif)
 
 📌 **Conclusión:** Aunque **ChatGPT-4o fue el más efectivo con múltiples prompts**, **Gemini 2.0 Flash** fue la única IA capaz de acercarse a un buen resultado con **un solo prompt**.
 
